@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(99, 202, 230);
+}
+#myH1{
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(8, 49, 17);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-color: rgb(21, 89, 114);
+    padding: 30px;
+    border-radius: 50px;
+    background-color: rgb(252, 251, 251);
+}
+#display{
+    font-size: 5rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color:hsl(200, 88%, 14%);
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 2px;
+
+}
+#controls button{
+     font-size: 1.5rem;
+     font-weight: 500;
+     margin: 6px;
+     padding: 10px 20px;
+     min-width: 125px;
+     cursor: pointer;
+     border-width: 2px;
+     border-color: rgb(17, 178, 178);
+     border-radius: 10px;
+     transition: background-color 0.5s ease;
+}
+#startButton{
+    background-color: rgb(122, 231, 122);
+}
+#startButton:hover{
+    background-color: hsl(120, 44%, 43%);
+}
+#stopButton{
+    background-color: hsl(5, 83%, 75%);
+}
+#stopButton:hover{
+    background-color: hsl(5, 83%, 55%);
+}
+#resetButton{
+    background-color: hsl(210, 66%, 59%);
+}
+#resetButton:hover{
+    background-color: hsl(210, 66%, 40%);
+}
